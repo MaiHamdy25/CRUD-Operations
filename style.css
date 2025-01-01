@@ -1,0 +1,171 @@
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: rgb(59, 130, 246);
+    color: white;
+}
+
+form input[type="reset"] {
+    background-color: rgb(136, 142, 146);
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(40, 106, 205);
+}
+
+form input[type="reset"]:hover {
+    background-color: rgb(100, 106, 110);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.head {
+    text-align: center;
+    
+}
+
+.head h1 {
+    display: inline-block;
+    margin-right: 10rem;
+}
+
+button {
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: rgb(59, 130, 246);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(40, 106, 205);
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.fa-eye,
+.fa-pen-to-square,
+.fa-trash {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-eye:hover {
+    color: #007bff;
+}
+
+.fa-pen-to-square:hover {
+    color: #28a745;
+}
+
+.fa-trash:hover {
+    color: #dc3545;
+}
