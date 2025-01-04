@@ -57,8 +57,8 @@ form input[type="reset"]:hover {
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 h1,
@@ -69,12 +69,13 @@ h5,
 h6 {
     color: #333;
     text-align: center;
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 h1 {
     text-align: center;
     color: #333;
+    padding-top: 30px;
 }
 
 p {
@@ -96,7 +97,7 @@ p {
 
 .head {
     text-align: center;
-    
+
 }
 
 .head h1 {
@@ -104,7 +105,7 @@ p {
     margin-right: 10rem;
 }
 
-button {
+.head button {
     margin: 20px auto;
     padding: 10px 30px;
     background-color: rgb(59, 130, 246);
@@ -116,7 +117,7 @@ button {
     font-size: 20px;
 }
 
-button a {
+.head button a {
     color: white;
     text-decoration: none;
 }
@@ -168,4 +169,34 @@ table tr:hover {
 
 .fa-trash:hover {
     color: #dc3545;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+
+#popup-content {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+body.popup-open {
+    overflow: hidden;
+}
+
+
+#popup button {
+    display: block;
+    margin: 10px auto 0;
 }
